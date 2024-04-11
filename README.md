@@ -1,3 +1,4 @@
 O projeto utilizará html com python
 
 https://pyscript.com/
+https://pyscript.net/
