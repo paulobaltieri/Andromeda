@@ -18,8 +18,8 @@
 
     <main class="form-signin">
         <form>
-            <img class="mb" src="./astronaut.png" alt="" width="112" height="127">
-            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+            <img class="mb" src="./img/astronaut.png" alt="" width="112" height="127">
+            <h1 class="h3 mb-3 fw-normal" id="titleLoginScreen">Andromeda</h1>
 
             <div class="input-group mb-3">
                 <span class="input-group-text" id="inputGroup-sizing-default">Usuário</span>
@@ -34,11 +34,13 @@
 
             <div class="checkbox mb-3">
                 <label>
-                    <input type="checkbox" value="remember-me"> Lembrar-me
+                    <input type="checkbox" id="simpleTextLoginScreen" value="remember-me"> Lembrar
                 </label>
             </div>
             <button class="w-100 btn btn-lg" id="myBtn" type="submit">Entrar</button>
-            <p class="mt-5 mb-3 text-muted">&copy; 2017–2024</p>
+            <div id="divSimpleText">
+                <label id="simpleTextLoginScreen">&copy; 2017–2024</label>
+            </div>
         </form>
     </main>
 
