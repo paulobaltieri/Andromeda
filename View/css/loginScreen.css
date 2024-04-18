@@ -8,7 +8,10 @@ body {
   align-items: center;
   padding-top: -10px;
   padding-bottom: 40px;
-  background-color: #0d0a12;
+  background-color: #202124;
+}
+.fontColor{
+  color: white;
 }
 #titleLoginScreen {
   color: #bdbdbd;
