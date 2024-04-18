@@ -1,0 +1,6 @@
+.content{
+    padding-left: 2px;
+    padding-right: 2px;
+    width: 600px; /* Largura do retângulo */
+    height: 5px; /* Altura do retângulo */
+  }

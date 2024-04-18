@@ -11,6 +11,7 @@
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/homeScreen.css">
+    <link rel="stylesheet" href="../css/carrocel.css">
     <!-- Bootstrap CSS  fim-->
     <title>Olá, mundo!</title>
 </head>
@@ -19,36 +20,64 @@
     <!-- Navbar inicio-->
     <nav class="navbar navbar-expand-lg" id="navbarColor">
         <div class="container-fluid">
-        <a class="navbar-brand" href="loginScreen.html">
-            <img src="../img/bootstrap-logo.svg" alt="Bootstrap" width="40" height="30"> Andromeda</a>
-        <ul class="nav nav-pills justify-content-end" id="nav-pills">
-            <li class="nav-item">
-                <a class="nav-link colorLink active" href="homeScreen.html">home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link colorLink" href="page01.html">page 1</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link colorLink" href="page02.html">page 2</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link colorLink" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled colorLink" href="#">Desativado</a>
-            </li>
-        </ul>
-    </div>
+            <a class="navbar-brand" href="loginScreen.html">
+                <img src="../img/bootstrap-logo.svg" alt="Bootstrap" width="40" height="30"> Andromeda</a>
+            <ul class="nav nav-pills justify-content-end" id="nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link colorLink active" href="homeScreen.html">home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link colorLink" href="page01.html">page 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link colorLink" href="page02.html">page 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link colorLink" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled colorLink" href="#">Desativado</a>
+                </li>
+            </ul>
+        </div>
     </nav>
-
     <!-- Navbar Fim-->
 
     <!--  Conteudo-->
     <div class="content">
+        <!-- Carrossel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Primeiro Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Segundo Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://via.placeholder.com/800x400" alt="Terceiro Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+        <!-- Fim do Carrossel -->
 
+        <h1>Home teste</h1>
     </div>
-    <h1>Home teste</h1>
     <!--  Conteudo-->
+
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -11,9 +11,5 @@ body {
 i {
   margin-right: 10px;
 }
-.content{
-  width: auto; /* Largura do retângulo */
-  height: 40px; /* Altura do retângulo */
-  background-color: #037dff; /* Cor de fundo do retângulo */
-}
+
 /*----------bootstrap-navbar-css------------*/
