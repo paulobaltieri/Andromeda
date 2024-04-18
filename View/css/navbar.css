@@ -1,28 +1,24 @@
 body {
   color: red;
-  background-color: #0d0a12;
+  background-color: white;
 }
 
 .nav-link {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  background-color: #0d0a12;
+  background-color: #202124;
 }
 
 .tab-content {
   border: 0;
 }
 
-.nav-pills {
-  color: green !important; /* Use !important para garantir que a classe prevaleça */
+.alignMenu{
+  justify-content: flex-start !important;
 }
 
-.navbar-brand {
-  justify-content: flex-start;
-}
-
-#navbarTeste {
-  background-color: #0d0a12;
+#navbarColor{
+  background-color: #202124;
 }
 
 .colorLink {
